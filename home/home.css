@@ -1,0 +1,114 @@
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto;  /* Enable scroll if needed */
+    background-color: rgb(0,0,0); 
+    /* Fallback color */
+    background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+   
+    padding-top: 100px;
+    padding-left: 30%;
+  }
+  .jumbotron{
+     
+     background-color: white;
+  }
+.main-text{
+    display:none;
+    font-size: 10vw;
+}
+
+#img-con{
+    position: relative;
+    display: inline-block;
+   
+}
+#menu{
+    margin-top: 0;
+}
+ .main-text{
+    z-index: 999;
+   line-height: 700px;
+    left: 35%;
+    color: aliceblue;
+    position: absolute;
+    font-size: 10vw;
+    font-family: 'Abril Fatface', cursive;
+    
+}
+@media screen and (max-width: 767px){
+    .main-text{
+        line-height: 400px;
+    }
+}
+.img-fluid{
+    width: 100%;
+    padding-right: 0;
+    height: 100%;
+}
+#menu-img{
+ padding-right: 0;
+ padding-left: 0;
+}
+
+
+
+
+#menu-text{
+    background-color: rgb(252, 247, 239);
+    padding-top: 12%;
+    padding-left: 7%;
+    /* text-align: left; */
+
+
+  
+}
+
+
+
+h4{
+    font-size: 55px;
+    font-family: 'Archivo Black', sans-serif;
+    padding-left:40px;
+    line-height: 150px;
+    height: auto !important;
+  
+
+}
+#buttonMenu{
+    font-family:  sans-serif;
+    width: 180px;
+}
+p{
+   
+    
+    margin: 50px 60px 50px 30px;
+    
+}
+#sign{
+    font-size: 30px;
+}
+#menu-button{
+    margin:50px 60px 50px 30px;
+
+}
+
+@media screen and (max-width: 767px){
+    .main-text{
+        line-height: 500px;
+    }
+    .modal{
+        padding:100px 30px 40px 30px;
+    }
+    #menu-button{
+        font-family:  sans-serif;
+        width: 80px;
+       
+        padding: 5px 25px 60px 40px;
+    }
+}

@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.container-fluid{
+    display: block;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#container {
+    padding-top: 5%;
+    background: #e3e9e7;
+}
+
+#img-con{
+    position: relative; 
+    display: inline-block;
+ 
+}
+
+ .main-text{
+  
+    margin-top: 50%;
+    margin-bottom: 20px;
+    height: auto;
+    line-height: 35px;;  
+    font-size:50px;
+    color: black;
+   
+   
+    font-family: 'Abril Fatface', cursive;
+    
+}
+#menu-bac{
+    order: 2;
+}
+
+
+#menu-tabs{
+    position: relative;
+    background:#d4ddda;
+    letter-spacing: 1px;
+    color:#1a1a1a;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+#menu-tabs li {
+    padding:0;
+  
+    display: inline-block;
+   
+    text-align: center;
+    margin: 0 0 -2px 0 ;
+}
+#menu-tabs li a {
+    color:black;
+    border:0px;
+    height: 100%;
+    padding:20px 0 20px 0;
+}
+.nav-item{
+    margin-left: 25px;
+}
+.nav-tabs .nav-link.active {
+    background-color: #dce4e7;
+}
+.nav-tabs:focus {outline:0;}
+.nav-item:hover{
+    background-color:#e3e9e7;
+}
+
+@media screen and (max-width: 767px){
+    .main-text{
+        font-size: 30px;
+    }
+    .right-button {
+        display:none;
+    }
+    #logo{
+        display:none;
+    }
+}
+#logo{
+    width:50px;
+    margin: 20px 42%;
+}
+#cartBtn{
+    color:white;
+    text-decoration: none !important;
+}
+#cartBtn:hover{
+    color:black;
+    background-color:white;
+  
+}
+
+#menu-back {
+    height: 100%;
+}
+
+
+
+.row{
+    margin: 0px;
+}
+.col-6{
+    margin-bottom: 5%;
+}
+
+#menu2{
+    background-color: #f2f2f2;
+}
+.pannel{
+    display: block;
+}
+
+.inner-page{
+    background-color: black;
+}
+
+
+header{
+    width:100%;
+    position: fixed;
+    z-index: 999;
+    top:0;
+    left:0;
+    height: 80px;
+}
